@@ -31,21 +31,21 @@ const handleSubmit = function(event) {
   if (day === 'mon' && meal === 'breakfast') {
     answer = 'Sausages'; 
   }
-  else if ( meal === 'lunch'){
-    answer = 'Grilled Chicken Salad'
+  if ( meal === 'lunch'){
+    answer = 'Grilled Chicken Salad';
   }
-  else if ( meal === 'dinner'){
-    answer = 'Faijta Pasta'
+  if ( meal === 'dinner'){
+    answer = 'Faijta Pasta';
   }
 
   //  Tuesday Meals
   if (day === 'tue' && meal === 'breakfast') {
     answer = 'French Toast'; 
   }
-  else if ( meal === 'lunch'){
+  if ( meal === 'lunch'){
     answer = 'Roast Beef Sandwich'
   }
-  else if ( meal === 'dinner'){
+  if ( meal === 'dinner'){
     answer = 'Roasted Cauliflower Tacos'
   }
 
@@ -53,10 +53,10 @@ const handleSubmit = function(event) {
   if (day === 'wed' && meal === 'breakfast') {
     answer = 'Cereal'; 
   }
-  else if ( meal === 'lunch'){
+  if ( meal === 'lunch'){
     answer = 'Vegetarian Burrito'
   }
-  else if ( meal === 'dinner'){
+  if ( meal === 'dinner'){
     answer = 'Minestrone Soup'
   }
 
@@ -64,10 +64,10 @@ const handleSubmit = function(event) {
   if (day === 'thu' && meal === 'breakfast') {
     answer = 'Bacon'; 
   }
-  else if ( meal === 'lunch'){
+  if ( meal === 'lunch'){
     answer = 'Chicken Quesadillas'
   }
-  else if ( meal === 'dinner'){
+  if ( meal === 'dinner'){
     answer = 'Bean Chili'
   }
 
@@ -75,10 +75,10 @@ const handleSubmit = function(event) {
   if (day === 'fri' && meal === 'breakfast') {
     answer = 'Avocado Toast'; 
   }
-  else if ( meal === 'lunch'){
+  if ( meal === 'lunch'){
     answer = 'Frittata'
   }
-  else if ( meal === 'dinner'){
+  if ( meal === 'dinner'){
     answer = 'Sesame Tofu'
   }
 
@@ -86,10 +86,10 @@ const handleSubmit = function(event) {
   if (day === 'sat' && meal === 'breakfast') {
     answer = 'Chicken and Waffles'; 
   }
-  else if ( meal === 'lunch'){
+  if ( meal === 'lunch'){
     answer = 'Hummus and Veggie Sandwich'
   }
-  else if ( meal === 'dinner'){
+  if ( meal === 'dinner'){
     answer = 'Stuffed Shells'
   }
 
@@ -97,10 +97,10 @@ const handleSubmit = function(event) {
   if (day === 'sun' && meal === 'breakfast') {
     answer = 'Pancakes'; 
   }
-  else if ( meal === 'lunch'){
+  if ( meal === 'lunch'){
     answer = 'Tomato Soup and Grilled Cheese'
   }
-  else if ( meal === 'dinner'){
+  if ( meal === 'dinner'){
     answer = 'Baked Feta'
   }
 
